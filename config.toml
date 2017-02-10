@@ -1,0 +1,15 @@
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+title = "G'Dog Mate!"
+BaseURL = "https://www.gdogmate.com/"
+paginate = 10
+
+[params]
+  title = "G'Dog Mate!"
+  logo = "fa-code"
+  site_author = "Marc Cohen"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
