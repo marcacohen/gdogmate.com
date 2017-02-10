@@ -1,69 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 
-<html>
-	<head>
-		<title>{{ .Title }}</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		{{ partial "stylesheets" }}
-	</head>
-	<body>
-		<!-- Wrapper -->
-		<div id="wrapper">
-			<a href="/" class="upper-left">
-				<img src="img/logo.png" height="50" />
-			</a>  
+  {{ partial "head.html" . }}
 
-			<!-- Header -->
-			<header id="header">
-				<div class="content">
-					<div class="inner icons">
-						<h1>{{ .Site.Params.title | safeHTML }}</h1>
-						<!-- {{ partial "social" }} -->							
-						<p>Making tails wag since 2017</p>
-					</div>
-				</div>
-				<nav>
-					<ul>
-						<li><a href="#services">Services</a></li>
-						<li><a href="#gallery">Gallery</a></li>
-						<li><a href="#contact">Contact</a></li>
-						<li><a href="#about">About</a></li>
-					</ul>
-				</nav>
-			</header>
+  <body id="page-top" class="index">
+    {{ partial "nav.html" . }}
+    {{ partial "hero.html" . }}
 
-			<!-- Main -->
-			<div id="main">
-				<article id="services">
-					<h2 class="major">Services</h2>
-				</article>
+    {{ if .Site.Params.services.enable }}
+      {{ partial "services.html" . }}
+    {{ end }}
 
-				<article id="gallery">
-					<h2 class="major">Gallery</h2>
-				</article>
+    {{ if .Site.Params.team.enable }}
+      {{ partial "team.html" . }}
+    {{ end }}
 
-				<article id="contact">
-					<h2 class="major">Contact Us</h2>
-				</article>
+    {{ if .Site.Params.portfolio.enable }}
+      {{ partial "portfolio.html" . }}
+    {{ end }}
 
-				<article id="about">
-					<h2 class="major">About Us</h2>
-					<span class="image main"><img src="/img/london.jpg" alt="" /></span>
-					<img src="/img/mco.jpg" alt="" height="150" class="me" />
-					{{ partial "about" }}
-				</article>
-			</div>
+    {{ if .Site.Params.clients_list.enable }}
+      {{ partial "clients.html" . }}
+    {{ end }}
 
-			<!-- Footer -->
-			{{ partial "footer" }}
-			
-		</div>
+    {{ if .Site.Params.contact.enable }}
+      {{ partial "contact.html" . }}
+    {{ end }}
 
-		<!-- BG -->
-		<div id="bg"></div>
+    {{ if .Site.Params.footer.enable }}
+      {{ partial "footer.html" . }}
+    {{ end }}
 
-		<!-- Scripts -->
-		{{ partial "javascript" }}
-	
-	</body>
+    {{ if .Site.Params.portfolio.enable }}
+      {{ partial "modals.html" . }}
+    {{ end }}
+
+    {{ partial "js.html" . }}
+  </body>
 </html>
