@@ -125,7 +125,8 @@ fieldset[disabled] .btn-primary.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    //color: #fff;
+    color: black;
     background-color: #fed136;
 }
 
@@ -254,9 +255,10 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
-        background-color: transparent;
+        //background-color: transparent;
+        background-color: black;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -311,9 +313,11 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
+    //text-transform: uppercase;
+    text-shadow: 10px 10x 10px black;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
+    color: #fec503;
     font-weight: 700;
     line-height: 50px;
 }
@@ -334,9 +338,11 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
+        //text-transform: uppercase;
+        text-shadow: 5px 5px 5px black;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 50px;
+        color: #fec503;
         font-weight: 700;
         line-height: 75px;
     }

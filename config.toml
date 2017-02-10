@@ -15,7 +15,6 @@ googleAnalytics = ""
 
 [params]
   title = "G'Dog Mate!"
-  logo = "fa-code"
   site_author = "Marc Cohen"
   # You can use Markdown syntax for urls [text](//url.to/source) or
   # most longer texts.
