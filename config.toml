@@ -127,18 +127,19 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
+      name = "Kimberly"
+      position = "position"
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """
+Greetings!!  My name is Kimberly and I’m an American who moved to London 3 years ago, bringing 
+with me my 16-year- old daughter and my 10-year-old mixed breed dog Meiko. Animals are a passion
+of mine, having previously worked as a veterinarian in the U.S.  I’ve also been a vegetarian for
+more than 30 years, primarily because of my views on animal welfare and my concerns for the 
+ethical treatment of all living things.  My friend and business partner, Sally, and I are
+dedicated to providing your pooch with the same loving care that we would give to our own pets.
+We look forward to meeting you and your pup and discussing your individual dog walking needs.
+G'day from g'dog mate!
+      """
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -147,8 +148,28 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
+      name = "Sally-anne"
+      position = "position"
+      bio = """
+Hello, my name is Sally and I absolutely adore animals. I was born in the Peak District and my first 
+best friend in this world was Morgan, my childhood labrador (he took me for a walk!). I have many
+fond memories of long walks with Morgan around the Derbyshire Dales, before emigrating to Australia,
+where I grew up with cats, dogs, horses, sheep and even a pet Blue Tongue Lizard! I moved back to
+the UK in 1995 and adopted a lovely little rescue dog from Battersea, who I named Charlie. Sadly,
+when he passed away in 2012, it truly broke my heart. I have not found a job more rewarding than
+spending my time caring for and walking four-legged friends, hence starting up G'Dog Mate with
+my friend Kimberly.
+      """
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Your Dog"
+      position = "position"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -170,16 +191,6 @@ She worked at Pied Piper for years until they went belly up."""
       date = "Date"
       category = "Category"
       buttonText = "Close project"
-
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
 
   # Client section
     [params.clients_list]
@@ -233,7 +244,7 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "kimbacohen@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
