@@ -91,7 +91,7 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Services & Prices"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Foo Lorem ipsum dolor sit amet consectetur."
 
     [[params.services.row]]
 
