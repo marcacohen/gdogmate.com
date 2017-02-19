@@ -11,4 +11,4 @@ install:
 script:
   - cd $HOME/gopath/src/github.com/marcacohen/gdogmate.com && hugo
 after_success:
-  - firebase deploy --token=${FIREBASE_API_TOKEN}
+  - firebase deploy --debug --token=${FIREBASE_API_TOKEN}
