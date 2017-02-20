@@ -99,23 +99,20 @@ googleAnalytics = ""
       icon = "fa-shopping-cart"
       title = "Schedule"
       description = """
-Morning Walk
-<table>
-<th></th>
-<tr><td>9:30-10:00am</td><td>pickup</td></tr>
-<tr><td>10:00-11:30am</td><td>walk in park*</td></tr>
-<tr><td>11:30-12:00pm</td><td>drop-off</td></tr>
-</table>
+<strong>Morning Walk</strong>
 
-Afternoon Walk
+9:30-10:00am pickup<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:00-11:30am walk in park<br>
+11:30-12:00pm drop-off
 
-<table>
-<tr><td>12:30-1:00pm</td><td>pickup</td></tr>
-<tr><td>1:00-2:30pm</td><td>walk in park*</td></tr>
-<tr><td>2:30-3:00pm</td><td>drop-off</td></tr>
-</table>
-<br>
-* Highgate Wood, Waterlow Park, Alexandra Palace, Priory Park</td></tr>
+<strong>Afternoon Walk</strong>
+
+12:30-1:00pm pickup<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:00-2:30pm walk in park<br>
+2:30-3:00pm drop-off
+
+Parks: Highgate Wood, Waterlow Park,<br>
+Alexandra Palace, Priory Park
 """
       url = "#"
 
@@ -123,9 +120,10 @@ Afternoon Walk
       icon = "fa-lock"
       title = "Fees"
       description = """
-15 GBP per walk (12.50 GBP for weekly bookings )
+15 GBP per walk<br>
+(12.50 GBP for weekly bookings )
 
-10 GBP per walk for addl. dogs from same household
+10 GBP per addl. dog from same household
 
 <strong>Dogs require microchips and should be up-to-date on vaccinations, flea treatment, and worming.</strong>
                     """
@@ -135,10 +133,7 @@ Afternoon Walk
       icon = "fa-lock"
       title = "Additional Services"
       description = """
-<strong>Free collection and drop-off (small fee beyond 2 mile radius from N8)
-towel dry and leave fresh water available at drop-off
-regular updates via</strong> WhatsApp or Instagram
-home visits available (10 GBP fee) for dogs who just need a 30-minute break in their daily routine
+Free collection and drop-off (small fee beyond 2 mile radius from N8), towel dry and leave fresh water available at drop-off. Regular updates via WhatsApp or Instagram. Home visits available (10 GBP fee) for dogs who just need a 30-minute break in their daily routine.
                     """
       url = "#"
 
