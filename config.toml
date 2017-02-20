@@ -150,10 +150,10 @@ We look forward to meeting you and your pup and discussing your individual dog w
 G'day from g'dog mate!
       """
 
-    [[params.team.members]]
-      img = "yourdog.jpg"
-      name = "Your Dog"
-      position = "client"
+    #[[params.team.members]]
+      #img = "yourdog.jpg"
+      #name = "Your Dog"
+      #position = "client"
 
   # Portfolio section
   [params.portfolio]
