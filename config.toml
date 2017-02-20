@@ -147,9 +147,9 @@ home visits available (10 GBP fee) for dogs who just need a 30-minute break in t
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Our team"
+    subtitle = ""
+    description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -178,7 +178,7 @@ Greetings!! My name is Kimberly and I’m an American who moved to London 3 year
 
   # Portfolio section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -194,7 +194,7 @@ Greetings!! My name is Kimberly and I’m an American who moved to London 3 year
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -223,7 +223,7 @@ Greetings!! My name is Kimberly and I’m an American who moved to London 3 year
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = ""
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
