@@ -91,7 +91,7 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Services & Prices"
-    subtitle = "We offer 2 daily timeslots for 90-minute outings for dogs living in the following areas: Crouch End, Muswell Hill, Highgate, Hornsey, Wood Green, and Bounds Green.  We are fully insured with CRB checks to give you peace of mind that your dog is in the best care."
+    subtitle = "We offer 2 daily timeslots for 90-minute outings for dogs living in the following areas: Crouch End, Muswell Hill, Highgate, Hornsey, Wood Green, and Bounds Green. We are fully insured with CRB checks to give you peace of mind that your dog is in the best care.  We maintain small outings with no more than 3 dogs per group."
 
     [[params.services.row]]
 
@@ -111,7 +111,8 @@ googleAnalytics = ""
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:00-2:30pm walk in park<br>
 2:30-3:00pm drop-off
 
-Parks: Highgate Wood, Waterlow Park,<br>
+<strong>Parks:</strong><br>
+Highgate Wood, Waterlow Park,<br>
 Alexandra Palace, Priory Park
 """
       url = "#"
@@ -125,6 +126,8 @@ Alexandra Palace, Priory Park
 
 10 GBP per addl. dog from same household
 
+<Strong>Special Offer: </strong>First walk free of charge!
+
 <strong>Dogs require microchips and should be up-to-date on vaccinations, flea treatment, and worming.</strong>
                     """
       url = "#"
@@ -133,7 +136,10 @@ Alexandra Palace, Priory Park
       icon = "fa-lock"
       title = "Additional Services"
       description = """
-Free collection and drop-off (small fee beyond 2 mile radius from N8), towel dry and leave fresh water available at drop-off. Regular updates via WhatsApp or Instagram. Home visits available (10 GBP fee) for dogs who just need a 30-minute break in their daily routine.
+Free collection and drop-off (small fee beyond 2-mile radius from N8).
+Towel dry and fresh water at drop-off.
+Regular updates via WhatsApp or Instagram.
+Home visits available (10 GBP fee for 30 minutes) for pets who only need a short bathroom break, or require medication or feeding during the day.​
                     """
       url = "#"
 
