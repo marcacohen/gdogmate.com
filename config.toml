@@ -90,7 +90,15 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Services & Prices"
-    subtitle = "We offer 2 daily timeslots for 90-minute outings for dogs living in the following areas: Crouch End, Muswell Hill, Highgate, Hornsey, Wood Green, and Bounds Green. We are fully insured with CRB checks to give you peace of mind that your dog is in the best care.  We maintain small outings with no more than 3 dogs per group."
+    subtitle = """
+<ul>
+<li>Morning or afternoon walks available</li>
+<li>90-minutes of exercise</li>
+<li>Outings to Highgate Wood, Waterlow, Alexandra or Priory Park</li>
+<li>Small group outings with no more than 3 dogs</li>
+<li>Experienced, fully insured carers with CRB checks</li>
+</ul>
+"""
 
     [[params.services.row]]
 
@@ -109,10 +117,6 @@ googleAnalytics = ""
 12:30-1:00pm pickup<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:00-2:30pm walk in park<br>
 2:30-3:00pm drop-off
-
-<strong>Parks:</strong><br>
-Highgate Wood, Waterlow Park,<br>
-Alexandra Palace, Priory Park
 """
       url = "#"
 
@@ -244,7 +248,7 @@ Greetings!! My name is Kimberly and I’m an American who moved to London 3 year
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "kimbacohen@gmail.com"
+    email = "gdogmate@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
