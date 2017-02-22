@@ -103,46 +103,47 @@ googleAnalytics = ""
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
+      icon = "fa-clock-o"
       title = "Schedule"
       description = """
-<strong>Morning Walk</strong>
+##### Morning Walk
 
 9:30-10:00am pickup<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:00-11:30am walk in park<br>
+10:00-11:30am walk in park<br>
 11:30-12:00pm drop-off
 
-<strong>Afternoon Walk</strong>
+##### Afternoon Walk
 
 12:30-1:00pm pickup<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:00-2:30pm walk in park<br>
+1:00-2:30pm walk in park<br>
 2:30-3:00pm drop-off
 """
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
+      icon = "fa-gbp"
       title = "Fees"
       description = """
-15 GBP per walk<br>
-(12.50 GBP for weekly bookings )
+15 GBP per walk<br />
+(12.50 GBP for weekly bookings)<br />
+10 GBP per addl. dog from same household<br />
 
-10 GBP per addl. dog from same household
-
-<Strong>Special Offer: </strong>First walk free of charge!
-
-<strong>Dogs require microchips and should be up-to-date on vaccinations, flea treatment, and worming.</strong>
+##### First walk free of charge!
                     """
+#<strong>Dogs require microchips and should be up-to-date on vaccinations, flea treatment, and worming.</strong>
+
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
+      icon = "fa-paw"
       title = "Additional Services"
       description = """
-Free collection and drop-off (small fee beyond 2-mile radius from N8).
-Towel dry and fresh water at drop-off.
-Regular updates via WhatsApp or Instagram.
-Home visits available (10 GBP fee for 30 minutes) for pets who only need a short bathroom break, or require medication or feeding during the day.​
+<ul style="text-align:left">
+<li>Free collection and drop-off (small fee beyond 2-mile radius from N8)</li>
+<li>Towel dry and fresh water at drop-off</li>
+<li>Regular updates via WhatsApp or Instagram</li>
+<li>Home visits available (10 GBP fee for 30 minutes) for pets who only need a short bathroom break, or require medication or feeding during the day</li>
+</ul>
                     """
       url = "#"
 
@@ -172,7 +173,7 @@ Hello, my name is Sally and I was born in the Peak District and my first best fr
       #position = "co-founder"
       # For bio markdown and even multiline strings are available.
       bio = """
-Greetings!! My name is Kimberly and I’m an American who moved to London 3 years ago, bringing with me my 16-year- old daughter and my 10-year-old mixed breed dog Meiko. Animals are a passion of mine, having previously worked as a veterinarian in the U.S. I’ve also been a vegetarian for more than 30 years, primarily because of my views on animal welfare and my concerns for the ethical treatment of all living things. My friend and business partner, Sally and I are dedicated to providing your pooch with the same loving care that we would give to our own pets. G’day from g'dog mate!
+Greetings!! My name is Kimberly and I’m an American who moved to London 3 years ago, bringing with me my 16-year-old daughter and my 10-year-old mixed breed dog Meiko. Animals are a passion of mine, having previously worked as a veterinarian in the U.S. I’ve also been a vegetarian for more than 30 years, primarily because of my views on animal welfare and my concerns for the ethical treatment of all living things. My friend and business partner, Sally and I are dedicated to providing your pooch with the same loving care that we would give to our own pets. G’day from g'dog mate!
       """
 
     #[[params.team.members]]

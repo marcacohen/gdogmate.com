@@ -7,8 +7,7 @@
         <h3 class="section-subheading">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</h3>
       </div>
     </div>
-  <a href="mailto:gdogmate@gmail.com">Contact Us!</a>
-    {{ range .Site.Params.services.row }}
+     {{ range .Site.Params.services.row }}
       <div class="row text-center">
         {{ range .list }}
           <div class="col-md-4">
