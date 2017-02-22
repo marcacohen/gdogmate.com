@@ -82,7 +82,7 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "G'Dog Mate!"
-    subtitle = "Making Tails Wag All Over London"
+    subtitle = "Down To Earth Dog Walking"
     buttonText = "Tell me more"
 
 
