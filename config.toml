@@ -106,13 +106,13 @@ googleAnalytics = ""
       icon = "fa-clock-o"
       title = "Schedule"
       description = """
-##### Morning Walk
+##### **Morning Walk**
 
 9:30-10:00am pickup<br>
 10:00-11:30am walk in park<br>
 11:30-12:00pm drop-off
 
-##### Afternoon Walk
+##### **Afternoon Walk**
 
 12:30-1:00pm pickup<br>
 1:00-2:30pm walk in park<br>
@@ -128,7 +128,7 @@ googleAnalytics = ""
 (12.50 GBP for weekly bookings)<br />
 10 GBP per addl. dog from same household<br />
 
-##### First walk free of charge!
+##### **First walk free of charge!**
                     """
 #<strong>Dogs require microchips and should be up-to-date on vaccinations, flea treatment, and worming.</strong>
 
