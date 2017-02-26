@@ -91,11 +91,16 @@ googleAnalytics = ""
     enable = true
     title = "Services & Prices"
     subtitle = """
-- Morning or afternoon walks available
+- Morning or afternoon walks
 - 90-minutes of exercise
-- Outings to Highgate Wood, Waterlow, Alexandra or Priory Park
-- Small group outings with no more than 3 dogs
-- Experienced, fully insured carers with CRB checks
+- Small groups with up to 3 dogs
+- Fully insured with CRB checks
+- Outings to:
+  - Highgate Wood
+  - Hampstead Heath
+  - Waterlow Park
+  - Alexandra Park
+  - Priory Park
 """
 
     [[params.services.row]]

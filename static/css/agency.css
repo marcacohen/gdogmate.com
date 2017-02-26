@@ -10,6 +10,23 @@ body {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+@media(min-width:768px) {
+  html {
+    height: 100%;
+  }
+
+  body {
+    height: 100%;
+    overflow-x: hidden;
+    /*font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+}
+
+.pad-icons {
+    margin-top: 60px;
+}
+
 .text-muted {
     color: #777;
 }
@@ -176,7 +193,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    //background-color: #222;
+    /*background-color: #222;*/
     background-color: black;
 }
 
@@ -282,7 +299,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        /*padding: 10px 0;*/
         background-color: #000;
     }
 
@@ -302,6 +319,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 100%;
 }
 
 header .intro-text {
@@ -323,7 +341,7 @@ header .intro-text .intro-heading {
     /*text-transform: uppercase;*/
     text-shadow: 10px 10x 10px black;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #fec503;
     font-weight: 700;
     line-height: 50px;
@@ -346,7 +364,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        //text-transform: uppercase;
+        /*text-transform: uppercase;*/
         text-shadow: 5px 5px 5px black;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 36px;
@@ -358,17 +376,16 @@ header .intro-text .intro-heading {
 
 section {
     padding: 50px 0;
+    height: 100%;
 }
 
 section h2.section-heading {
-    margin-top: 20px;
-    margin-bottom: 0;
+    margin-top: 8%;
     font-size: 30px;
 }
 
 section h3.section-subheading {
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 0px;
     text-transform: none;
     /*font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;

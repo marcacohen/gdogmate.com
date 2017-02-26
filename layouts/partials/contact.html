@@ -13,9 +13,8 @@
                     <h4>{{ . | markdownify }}</h4>
                 {{ end }}
             </div>
-		<br><br><br><br>
             {{ if .Site.Params.contact.phone }}
-                <div class="
+                <div class="pad-icons 
                 {{ if .Site.Params.contact.email }}
                     col-lg-4
                 {{ else }}
@@ -27,10 +26,8 @@
                     <h4>{{ .Site.Params.contact.phone }}</h4></a>
                 </div>
             {{ end }}
-		<br>
-		<br>
             {{ if .Site.Params.contact.email }}
-                <div class="
+                <div class="pad-icons 
                 {{ if .Site.Params.contact.phone }}
                     col-lg-4
                 {{ else }}
