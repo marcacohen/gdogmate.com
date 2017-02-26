@@ -361,9 +361,9 @@ section {
 }
 
 section h2.section-heading {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 0;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 section h3.section-subheading {
@@ -375,9 +375,9 @@ section h3.section-subheading {
     font-size: 16px;
     /* font-style: italic; */
     font-weight: 400;
-    margin-left: 27%; 
-    margin-right: 10%;
-    text-align: left;
+    /*margin-left: 27%;*/
+    /*margin-right: 10%;*/
+    /*text-align: left;*/
 }
 
 @media(min-width:768px) {

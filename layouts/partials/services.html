@@ -2,12 +2,20 @@
 <section id="services">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
-        <h3 class="section-subheading">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</h3>
-      </div>
+      <span class="col-md-2"></span>
+      <span class="col-md-8">
+        <h2 class="section-heading text-center">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
+      </span>
+      <span class="col-md-2"></span>
     </div>
-     {{ range .Site.Params.services.row }}
+    <div class="row">
+      <span class="col-md-3"></span>
+      <span class="col-md-8" style="list-style-position: inside;">
+        <h3 class="col section-subheading text-left">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      </span>
+      <span class="col-md-1"></span>
+    </div>
+      {{ range .Site.Params.services.row }}
       <div class="row text-center">
         {{ range .list }}
           <div class="col-md-4">

@@ -86,19 +86,16 @@ googleAnalytics = ""
     subtitle = "<br><br>Down To Earth Dog Walking Service"
     buttonText = "Tell me more"
 
-
   # Services section
   [params.services]
     enable = true
     title = "Services & Prices"
     subtitle = """
-<ul>
-<li>Morning or afternoon walks available</li>
-<li>90-minutes of exercise</li>
-<li>Outings to Highgate Wood, Waterlow, Alexandra or Priory Park</li>
-<li>Small group outings with no more than 3 dogs</li>
-<li>Experienced, fully insured carers with CRB checks</li>
-</ul>
+- Morning or afternoon walks available
+- 90-minutes of exercise
+- Outings to Highgate Wood, Waterlow, Alexandra or Priory Park
+- Small group outings with no more than 3 dogs
+- Experienced, fully insured carers with CRB checks
 """
 
     [[params.services.row]]
