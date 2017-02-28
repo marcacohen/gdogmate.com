@@ -335,13 +335,14 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
+    padding-top: 70%;
     margin-bottom: 25px;
     /*text-transform: uppercase;*/
-    text-shadow: 10px 10x 10px black;
+    text-shadow: 5px 5px 5px black;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
     color: #fec503;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 50px;
 }
 
@@ -361,13 +362,13 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        padding-top: 25%;
         /*text-transform: uppercase;*/
         text-shadow: 5px 5px 5px black;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 36px;
         color: #fec503;
-        font-weight: 700;
+        font-weight: 900;
         line-height: 75px;
     }
 }
