@@ -10,17 +10,15 @@ body {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-@media(min-width:768px) {
-  html {
-    height: 100%;
-  }
+html {
+  height: 100%;
+}
 
-  body {
-    height: 100%;
-    overflow-x: hidden;
-    /*font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  }
+body {
+  height: 100%;
+  overflow-x: hidden;
+  /*font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .pad-icons {
@@ -376,7 +374,7 @@ header .intro-text .intro-heading {
 
 section {
     padding: 50px 0;
-    height: 100%;
+    height: auto;
 }
 
 section h2.section-heading {
