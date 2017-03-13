@@ -56,7 +56,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "G'Dog, Mate!"
     # Optional logo as brand stored in img/
-    logo = "gdogmate.jpg"
+    logo = "gdogmate.png"
     services = "Services & Prices"
     team = "Team"
     portfolio = "Gallery"
