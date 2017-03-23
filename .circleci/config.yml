@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/build
+    docker:
+      - image: docker.io/marcacohen/hugo-image
+    steps:
+      - checkout
+      - run: hugo
+      - run: firebase deploy --token=${FIREBASE_TOKEN}
