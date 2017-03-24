@@ -127,9 +127,9 @@ googleAnalytics = ""
       icon = "fa-gbp"
       title = "Fees"
       description = """
-15 GBP per walk<br />
-(12.50 GBP for weekly bookings)<br />
-10 GBP per addl. dog from same household<br />
+£15 per walk<br />
+(£12.50 for weekly bookings)<br />
+£10 per addl. dog from same household<br />
 
 ##### **First walk free of charge!**
                     """
@@ -145,7 +145,7 @@ googleAnalytics = ""
 <li>Free collection and drop-off (small fee beyond 2-mile radius from N8)</li>
 <li>Towel dry and fresh water at drop-off</li>
 <li>Regular updates via WhatsApp or Instagram</li>
-<li>Home visits available (10 GBP fee for 30 minutes) for pets who only need a short bathroom break, or require medication or feeding during the day</li>
+<li>Home visits available (£10 fee for 30 minutes) for pets who only need a short bathroom break, or require medication or feeding during the day</li>
 </ul>
                     """
       url = "#"
