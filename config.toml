@@ -186,13 +186,13 @@ Greetings!! My name is Kimberly and I’m an American who moved to London 3 year
 
   # Portfolio section
   [params.portfolio]
-    enable = false
+    enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Gallery"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Some of our best friends (human and canine)..."
 
     [params.portfolio.modal]
       client = "Client"
@@ -202,11 +202,11 @@ Greetings!! My name is Kimberly and I’m an American who moved to London 3 year
 
   # Client section
     [params.clients_list]
-      enable = false
+      enable = true
       # Possibility to center items
-      #center = true
+      center = true
       # Optional client title specifying the involvement
-      #title = "Used and trusted by"
+      title = "Used and trusted by"
 
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
