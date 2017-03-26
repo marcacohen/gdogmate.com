@@ -1,20 +1,28 @@
 {{ "<!-- Services -->" | safeHTML }}
 <section id="services">
   <div class="container">
+    <br>
+    <br>
     <div class="row">
-      <span class="col-md-2"></span>
-      <span class="col-md-8">
-        <h2 class="section-heading text-center">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
+      <span class="col-md-4"></span>
+      <span class="col-md-5">
+        <h3 class="section-heading">&nbsp;&nbsp;&nbsp;&nbsp;{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h3>
       </span>
-      <span class="col-md-2"></span>
     </div>
     <div class="row">
-      <span class="col-md-3"></span>
-      <span class="col-md-8" style="list-style-position: inside;">
-        <h3 class="col section-subheading text-left">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      <span class="col-md-4"></span>
+      <span class="col-md-5">
+      <ul>
+<li><h4><strong>Small groups</strong> with up to 3 dogs</h4></li>
+<li><h4><strong>90 minutes</strong> of exercise and fun!</h4></li>
+<li><h4><strong>Fully insured</strong> with CRB checks</hr></li>
+<li><h4>Morning or afternoon walks</h4></li>
+<li><h4><strong>Outings to:</strong> Hampstead Heath,<br>Highgate Wood, Waterlow Park,<br>Alexandra Park, Priory Park</h4></li>
+</ul>
+<br>
       </span>
-      <span class="col-md-1"></span>
     </div>
+    <br>
       {{ range .Site.Params.services.row }}
       <div class="row text-center">
         {{ range .list }}

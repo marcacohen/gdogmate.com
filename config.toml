@@ -90,18 +90,6 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Services & Prices"
-    subtitle = """
-- Morning or afternoon walks
-- 90 minutes of exercise and fun!
-- Small groups with up to 3 dogs
-- Fully insured with CRB checks
-- Outings to:
-  - Highgate Wood
-  - Hampstead Heath
-  - Waterlow Park
-  - Alexandra Park
-  - Priory Park
-"""
 
     [[params.services.row]]
 
@@ -186,15 +174,18 @@ Greetings!! My name is Kimberly and I’m an American who moved to London 3 year
 
   # Portfolio section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Gallery"
-    subtitle = "Some of our best friends (human and canine)..."
+    subtitle = "Some of our best friends..."
+    category = "Category"
 
     [params.portfolio.modal]
+      title = "Gallery"
+      subtitle = "Some of our best friends (human and canine)..."
       client = "Client"
       date = "Date"
       category = "Category"
@@ -202,30 +193,22 @@ Greetings!! My name is Kimberly and I’m an American who moved to London 3 year
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       center = true
       # Optional client title specifying the involvement
-      title = "Used and trusted by"
+      title = "Testimonials"
 
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
       [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
+        name = "Simon, owner of Rocky"
+        text = "Kimberly has looked after and walked my German Shepherd Collie cross Rocky many times. He’s a very frisky dog that’s isn’t always tolerant of other dogs but Kimberly has the measure of him. He’s always tired and happy by the evening and she’s even taught him to catch a Frisbee. Rocky loves her!"
 
       [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
+        name = "Trissy, owner of Toulouse"
+        text = "I've never met anyone who loves dogs as much as Sally Anne. Toulouse our little mini Daxi fell in love with both Sally Anne and Kimberly. From day one I felt so safe leaving our first pup with them both. The WhatsApp pictures and videos is a great way of seeing how much joy our little dog has when she's been cared for. Toulouse can't wait to see you again!"
 
   # Contact section
   [params.contact]
