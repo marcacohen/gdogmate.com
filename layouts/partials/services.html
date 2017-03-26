@@ -25,13 +25,13 @@
       {{ range .Site.Params.services.row }}
       <div class="row text-center">
         {{ range .list }}
-          <div class="col-md-4">
+          <div class="col-md-4" style="font-size: 16px">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
-            <p>{{ .description | markdownify }}</p>
+            <h3 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h3>
+            <p style="font-size: 16px">{{ .description | markdownify }}</p>
           </div>
         {{ end }}
       </div>
