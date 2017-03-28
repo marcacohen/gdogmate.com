@@ -320,6 +320,23 @@ header {
     height: 100%;
 }
 
+.mission-bg {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-color: black;
+    /*
+    background-image: url(../img/mission-bg.png);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    */
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -344,6 +361,21 @@ header .intro-text .intro-heading {
     color: #fec503;
     font-weight: 900;
     line-height: 50px;
+}
+
+.mission-heading {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.mission-text {
+    padding-top: 15%;
+    margin-bottom: 25px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    color: #fec503;
+    font-weight: 900;
+    line-height: 30px;
 }
 
 @media(min-width:768px) {

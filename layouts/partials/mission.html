@@ -1,0 +1,11 @@
+{{ "<!-- Mission -->" | safeHTML }}
+<section id="mission" class="mission-bg">
+  <div class="container">
+    <div class="mission-text">
+      <div class="mission-heading">{{ with .Site.Params.mission.title }}{{.}}{{ end }}</div>
+      <br>
+      <div>{{ with .Site.Params.mission.subtitle }}{{ . | markdownify }}{{ end }}</div>
+    </div>
+  </div>
+</section>
+</header>

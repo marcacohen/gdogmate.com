@@ -34,6 +34,12 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.mission.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#mission">{{ with .Site.Params.navigation.mission }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
         {{ if .Site.Params.services.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
