@@ -169,7 +169,6 @@ Our mission is to provide your dog with exercise, fresh air, and the opportunity
       bio = """
 Hello, my name is Sally and I was born in the Peak District and my first best friend was Morgan, my childhood labrador (he took me for a walk!). I’ve many fond memories of long walks with Morgan around the Derbyshire Dales, before emigrating to Australia, where I grew up with cats, dogs, horses, sheep and even a pet Blue Tongue Lizard! I moved back to the UK in 1995 and adopted a lovely little rescue dog from Battersea, whom I named Charlie. I have not found a job more rewarding than spending my time caring for and walking four-legged friends, hence starting up g'dog mate with my friend Kimberly.
       """
-
     [[params.team.members]]
       img = "kimba.jpg"
       name = "Kimberly"
@@ -179,7 +178,18 @@ Hello, my name is Sally and I was born in the Peak District and my first best fr
 Greetings!! My name is Kimberly and I’m an American who moved to London 3 years ago, bringing with me my 16-year-old daughter and my 10-year-old mixed breed dog Meiko. Animals are a passion of mine, having previously worked as a veterinarian in the U.S. I’ve also been a vegetarian for more than 30 years, primarily because of my views on animal welfare and my concerns for the ethical treatment of all living things. My friend and business partner, Sally and I are dedicated to providing your pooch with the same loving care that we would give to our own pets. G’day from g'dog mate!
       """
 
-    #[[params.team.members]]
+    [[params.team.members]]
+      img = "nicki.jpg"
+      name = "Nicki"
+      bio = """
+Hi there! My name is Nicki. I grew up in the Cambridgeshire countryside surrounded by three
+bounding retrievers, a horse, a cat, chickens and various small fish and mammals! I have lived in
+London for 20 years and am a qualified yoga teacher. I have a 2 year old cockapoo called
+Liquorice who goes everywhere with me. I love nothing more than spending time walking in the
+beautiful green spaces of North London with liquorice and our gang of furry friends. 
+      """
+      
+      #[[params.team.members]]
       #img = "yourdog.jpg"
       #name = "Your Dog"
       #position = "client"
