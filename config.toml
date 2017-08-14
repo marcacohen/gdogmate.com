@@ -95,7 +95,7 @@ googleAnalytics = ""
     title = "Our Mission"
     subtitle = """
 Our mission is to provide your dog with exercise, fresh air, and the opportunity to socialise and play, while receiving the attention and care that you yourself would give them. We take groups of no more than 3 dogs for 90 minutes of exercise. Other dog walking services allow as many as 6 dogs per walker, which, we believe, compromises their safety and the level of care they receive. With us, your dog will not spend any walking time being transported in the back of a van and you will always know exactly who is taking care of him/her, because it will be one of us.<br><br>
-- Sally, Kimberly & Nicki
+- Sally & Nicki
 """
 
   # Services section
@@ -167,15 +167,7 @@ Our mission is to provide your dog with exercise, fresh air, and the opportunity
       name = "Sally-Anne"
       #position = "co-founder"
       bio = """
-Hello, my name is Sally and I was born in the Peak District and my first best friend was Morgan, my childhood labrador (he took me for a walk!). I’ve many fond memories of long walks with Morgan around the Derbyshire Dales, before emigrating to Australia, where I grew up with cats, dogs, horses, sheep and even a pet Blue Tongue Lizard! I moved back to the UK in 1995 and adopted a lovely little rescue dog from Battersea, whom I named Charlie. I have not found a job more rewarding than spending my time caring for and walking four-legged friends, hence starting up g'dog mate with my friend Kimberly.
-      """
-    [[params.team.members]]
-      img = "kimba.jpg"
-      name = "Kimberly"
-      #position = "co-founder"
-      # For bio markdown and even multiline strings are available.
-      bio = """
-Greetings!! My name is Kimberly and I’m an American who moved to London 3 years ago, bringing with me my 16-year-old daughter and my 10-year-old mixed breed dog Meiko. Animals are a passion of mine, having previously worked as a veterinarian in the U.S. I’ve also been a vegetarian for more than 30 years, primarily because of my views on animal welfare and my concerns for the ethical treatment of all living things. My friend and business partner, Sally and I are dedicated to providing your pooch with the same loving care that we would give to our own pets. G’day from g'dog mate!
+Hello, my name is Sally and I was born in the Peak District and my first best friend was Morgan, my childhood labrador (he took me for a walk!). I’ve many fond memories of long walks with Morgan around the Derbyshire Dales, before emigrating to Australia, where I grew up with cats, dogs, horses, sheep and even a pet Blue Tongue Lizard! I moved back to the UK in 1995 and adopted a lovely little rescue dog from Battersea, whom I named Charlie. I have not found a job more rewarding than spending my time caring for and walking four-legged friends, hence starting up g'dogmate.
       """
 
     [[params.team.members]]
@@ -224,21 +216,14 @@ beautiful green spaces of North London with Liquorice and our gang of furry frie
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
-        name = "Simon, owner of Rocky"
-        text = "Kimberly has looked after and walked my German Shepherd Collie cross Rocky many times. He’s a very frisky dog that’s isn’t always tolerant of other dogs but Kimberly has the measure of him. He’s always tired and happy by the evening and she’s even taught him to catch a Frisbee. Rocky loves her!"
-
-      [[params.clients]]
-        name = "Trissy, owner of Toulouse"
-        text = "I've never met anyone who loves dogs as much as Sally Anne. Toulouse our little mini Daxi fell in love with both Sally Anne and Kimberly. From day one I felt so safe leaving our first pup with them both. The WhatsApp pictures and videos is a great way of seeing how much joy our little dog has when she's been cared for. Toulouse can't wait to see you again!"
 
   # Contact section
   [params.contact]
     enable = true
     headline= "Contact us"
-    description = "Give us a call or send us email and we will get back to you as soon as possible!"
+    description = "Give us a call and we will get back to you as soon as possible!"
     buttonText = "Send message"
-    phone = "07508 195629"
+    phone = "07879 642778"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -258,7 +243,7 @@ beautiful green spaces of North London with Liquorice and our gang of furry frie
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "gdogmate@gmail.com"
+    # email = "gdogmate@gmail.com"
 
     # Success and error message overwrite for async contact form
     thanks = "Thank you for contacting us."
