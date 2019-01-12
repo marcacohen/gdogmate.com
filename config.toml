@@ -94,8 +94,20 @@ googleAnalytics = ""
     enable = true
     title = "Our Mission"
     subtitle = """
-Our mission is to provide your dog with exercise, fresh air, and the opportunity to socialise and play, while receiving the attention and care that you yourself would give them. We take groups of no more than 3 dogs for 90 minutes of exercise. Other dog walking services allow as many as 6 dogs per walker, which, we believe, compromises their safety and the level of care they receive. With us, your dog will not spend any walking time being transported in the back of a van and you will always know exactly who is taking care of him/her, because it will be one of us.<br><br>
-- Sally & Nicki
+Our mission is to provide your dog with exercise, fresh air, and
+the opportunity to socialise and play, while receiving the
+attention and care that you yourself would give them. We take
+groups of no more than 3 dogs per walker across many of North
+London’s wonderful parks. Other dog walking services allow as
+many as 6 dogs per walker (some even more!), which, we
+believe, compromises their safety and the level of care they
+receive. With us, your dog will not spend any walking time being
+transported in the back of a van and you will always know
+exactly who is taking care of him/her, because it will be me, with
+the occasional help of another dog loving, caring and
+experienced walker.
+<br><br>
+- Sally
 """
 
   # Services section
@@ -109,17 +121,14 @@ Our mission is to provide your dog with exercise, fresh air, and the opportunity
       icon = "fa-clock-o"
       title = "Schedule"
       description = """
-##### **Morning Walk**
 
-9:30-10:00am pick-up<br>
-10:00-11:30am walk in park<br>
-11:30-12:00pm drop-off
+##### **Midday Walk**
+##### **(approx. timings depending on traffic, weather and fun being had)**
 
-##### **Afternoon Walk**
+11:30am-12:00pm pick-up<br>
+12:00-1:00pm walk/run around park (if a lovely sunny day, we don't watch the clock!)<br>
+1:00-1:30pm drop-off
 
-12:30-1:00pm pick-up<br>
-1:00-2:30pm walk in park<br>
-2:30-3:00pm drop-off
 """
       url = "#"
 
@@ -127,8 +136,7 @@ Our mission is to provide your dog with exercise, fresh air, and the opportunity
       icon = "fa-gbp"
       title = "Fees"
       description = """
-£15 per walk<br />
-(£12.50 for weekly bookings)<br />
+£15 per 60 minute walk<br />
 £10 per addl. dog from same household<br />
 
 ##### **First walk free of charge!**
@@ -144,8 +152,8 @@ Our mission is to provide your dog with exercise, fresh air, and the opportunity
 <ul style="text-align:left">
 <li>Free collection and drop-off (small fee beyond 2-mile radius from N8)</li>
 <li>Towel dry and fresh water at drop-off</li>
-<li>Regular updates via WhatsApp or Instagram</li>
-<li>Home visits available (£10 fee for 30 minutes) for pets who only need a short bathroom break, or require medication or feeding during the day</li>
+<li>Video featuring a collection of pics from your furry friends weekly adventures sent direct to you via WhatsApp or on Instagram</li>
+<li>Home visits available for pets who only need a short bathroom break, or require medication or feeding and a cuddle during the day (call me to enquire)</li>
 </ul>
                     """
       url = "#"
@@ -155,7 +163,7 @@ Our mission is to provide your dog with exercise, fresh air, and the opportunity
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our team"
+    title = "About Me"
     subtitle = ""
     description = ""
 
@@ -170,17 +178,6 @@ Our mission is to provide your dog with exercise, fresh air, and the opportunity
 Hello, my name is Sally and I was born in the Peak District and my first best friend was Morgan, my childhood labrador (he took me for a walk!). I’ve many fond memories of long walks with Morgan around the Derbyshire Dales, before emigrating to Australia, where I grew up with cats, dogs, horses, sheep and even a pet Blue Tongue Lizard! I moved back to the UK in 1995 and adopted a lovely little rescue dog from Battersea, whom I named Charlie. I have not found a job more rewarding than spending my time caring for and walking four-legged friends, hence starting up g'dogmate.
       """
 
-    [[params.team.members]]
-      img = "nicki.jpg"
-      name = "Nicki"
-      bio = """
-Hi there! My name is Nicki. I grew up in the Cambridgeshire countryside surrounded by three
-bounding retrievers, a horse, a cat, chickens and various small fish and mammals! I have lived in
-London for 20 years and am a qualified yoga teacher. I have a 2 year old cockapoo called
-Liquorice who goes everywhere with me. I love nothing more than spending time walking in the
-beautiful green spaces of North London with Liquorice and our gang of furry friends. 
-      """
-      
       #[[params.team.members]]
       #img = "yourdog.jpg"
       #name = "Your Dog"
